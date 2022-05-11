@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+      @media (min-width:728px) {
+        .wrapper{
+          max-width: 1024px;
+          margin: auto;
+          display: flex;
+          justify-content: space-between;
+        }
+        .box {
+            width: 32%;
+            border: 5px solid #000;
+            border-radius: .5em;
+            height: 350px;
+        }
+      }
+
+    .box img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box1 img{
+      object-fit: cover;
+    }
+    .box2 img{
+      object-fit: contain;
+    }
+    .box3 img{
+      object-fit: fill;
+    }
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box box1"><img src="assets/img/balloon.jpg" alt="a balloon"></div>
+      <div class="box box2"><img src="assets/img/balloon.jpg" alt="a balloon"></div>
+      <div class="box box3"><img src="assets/img/balloon.jpg" alt="a balloon"></div>
+    </div>
+
+
+
+  </body>
+</html>
